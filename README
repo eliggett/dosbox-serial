@@ -1,3 +1,12 @@
+=== CHANGES from eliggett ===
+You can now access any baud rate you wish, even unusual ones. This change is only for the Linux operating system. 
+
+You may wish to tweak the FIFO size, this can be done by editing serialport.cpp and changing the value of fifosize on line 113. 
+
+I added some debugging text for serial baud rates. You may still find there are some things which do not work. Dosbox is not as transparent with serial ports as I would like it to be. 
+
+=============================
+
 DOSBox v0.74-3 Manual (always use the latest version from www.dosbox.com)
 
 
